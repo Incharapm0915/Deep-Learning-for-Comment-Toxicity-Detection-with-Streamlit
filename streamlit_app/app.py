@@ -673,7 +673,7 @@ def create_live_stats():
 
 def main():
     # Hero Header with animation
-    st.markdown('<h1 class="hero-header">🛡️ AI Shield</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="hero-header">🛡️ Deep Learning for Comment Toxicity</h1>', unsafe_allow_html=True)
     st.markdown('<p class="subtitle">Advanced Multi-Model Toxicity Detection & Content Moderation</p>', unsafe_allow_html=True)
     
     # Load models
@@ -1341,3 +1341,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
